@@ -1,6 +1,7 @@
 package com.example.examplemod.event;
 
 import com.example.examplemod.entity.ModEntities;
+import com.example.examplemod.entity.costom.PorkusEntity;
 import com.example.examplemod.entity.costom.RhinoEntity;
 import com.example.examplemod.maxmodcool;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
@@ -12,5 +13,6 @@ public class ModEventBusEvents {
     @SubscribeEvent
     public static void registerAttributes(EntityAttributeCreationEvent event) {
         event.put(ModEntities.RHINO.get(), RhinoEntity.createAttributes().build());
+        event.put(ModEntities.PORKUS.get(), PorkusEntity.createAttributes());
     }
 }

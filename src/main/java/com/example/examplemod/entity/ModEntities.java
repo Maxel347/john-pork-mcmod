@@ -20,6 +20,10 @@ public class ModEntities {
             ENTITY_TYPES.register("rhino", () -> EntityType.Builder.of(RhinoEntity::new, MobCategory.CREATURE)
                     .sized(2.5f, 2.5f).build("rhino"));
 
+    public static final RegistryObject<EntityType<RhinoEntity>> PORKUS =
+            ENTITY_TYPES.register("porkus", () -> EntityType.Builder.of(RhinoEntity::new, MobCategory.CREATURE)
+                    .sized(2.5f, 2.5f).build("porkus"));
+
 
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);

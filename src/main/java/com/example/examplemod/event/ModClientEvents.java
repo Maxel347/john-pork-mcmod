@@ -1,9 +1,7 @@
 package com.example.examplemod.event;
 
 import com.example.examplemod.entity.ModEntities;
-import com.example.examplemod.entity.client.ModModelLayers;
-import com.example.examplemod.entity.client.RhinoModel;
-import com.example.examplemod.entity.client.RhinoRenderer;
+import com.example.examplemod.entity.client.*;
 import com.example.examplemod.maxmodcool;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
@@ -17,10 +15,16 @@ public class ModClientEvents {
     @SubscribeEvent
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(ModEntities.RHINO.get(), RhinoRenderer::new);
+        event.registerEntityRenderer(ModEntities.PORKUS.get(), PorkusRenderer::new);
     }
+
 
     @SubscribeEvent
     public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(ModModelLayers.RHINO_LAYER, RhinoModel::createBodyLayer);
+        event.registerLayerDefinition(ModModelLayers.PORKUS_LAYER, PorkusModel::createBodyLayer);
+
     }
+
+
 }

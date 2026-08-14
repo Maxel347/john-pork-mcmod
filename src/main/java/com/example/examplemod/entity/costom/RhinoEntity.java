@@ -1,3 +1,4 @@
+
 package com.example.examplemod.entity.costom;
 
 import com.example.examplemod.entity.ModEntities;
@@ -32,7 +33,7 @@ public class RhinoEntity extends Animal {
     }
 
     public static AttributeSupplier.Builder createAttributes() {
-        return RhinoEntity.createMobAttributes() // Changed to Mob!
+        return RhinoEntity.createMobAttributes()
                 .add(Attributes.MAX_HEALTH, 40.0D)
                 .add(Attributes.MOVEMENT_SPEED, 0.25D)
                 .add(Attributes.ATTACK_DAMAGE, 200.0D)
