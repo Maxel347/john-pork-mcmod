@@ -1,10 +1,10 @@
-# 🐗 maxmodcool — John Pork Minecraft Mod
+# maxmodcool — John Pork Minecraft Mod
 
 A Minecraft Forge mod for version **1.20.1** that adds new custom entities to the game, including the fearsome **Rhino** and the legendary **Porkus**.
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. Make sure you have **Minecraft 1.20.1** installed
 2. Download and install **[Forge 1.20.1](https://files.minecraftforge.net/)** (recommended version: 47.x)
@@ -16,7 +16,7 @@ A Minecraft Forge mod for version **1.20.1** that adds new custom entities to th
 
 ---
 
-## 🦏 Entities
+## Entities
 
 ### Rhino
 - A large and powerful creature roaming the overworld
@@ -33,7 +33,7 @@ A Minecraft Forge mod for version **1.20.1** that adds new custom entities to th
 
 ---
 
-## 🎮 Spawning
+## Spawning
 
 You can spawn the entities using the following commands:
 
@@ -46,7 +46,7 @@ Or find a **Porkus Spawn Egg** in the creative inventory.
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 | Requirement | Version |
 |-------------|---------|
@@ -56,20 +56,20 @@ Or find a **Porkus Spawn Egg** in the creative inventory.
 
 ---
 
-## 🐛 Known Issues
+## Known Issues
 
 - Porkus has no sounds yet
 - Porkus does not spawn naturally in the world yet
 
 ---
 
-## 📜 License
+## License
 
 This mod is provided as-is for personal use. Feel free to use it in modpacks with credit.
 
 ---
 
-## 💬 Credits
+## Credits
 
 Made with way too many hours wasted and the help of God.
 
