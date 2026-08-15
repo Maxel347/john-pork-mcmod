@@ -25,7 +25,7 @@ public class PorkusRenderer extends MobRenderer<PorkusEntity, PorkusModel<Porkus
 
         PorkusModel<PorkusEntity> model = this.getModel();
 
-        float earWobble = net.minecraft.util.Mth.sin(pAgeInTicks * 0.5f) * 5;
+        float earWobble = net.minecraft.util.Mth.sin(pAgeInTicks * 0.1f) * 0.2f;
 
         model.right_ear.zRot = earWobble;
         model.left_ear.zRot = -earWobble;
