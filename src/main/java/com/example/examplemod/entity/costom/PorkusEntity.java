@@ -22,9 +22,9 @@ public class PorkusEntity extends Monster {
         super.registerGoals();
         this.goalSelector.addGoal(0, new FloatGoal(this));
         this.goalSelector.addGoal(1, new RandomLookAroundGoal(this));
-        this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.8D, 55));
+        this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.8D, 55));
         //this.goalSelector.addGoal(2, new WaterAvoidingRandomStrollGoal(this, 0.8D, 65));
-        this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2D, true));
+        this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.2D, true));
 
         this.targetSelector.addGoal(1, new NearestAttackableTargetGoal<>(this, Player.class, true));
     }

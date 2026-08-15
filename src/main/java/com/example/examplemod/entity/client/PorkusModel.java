@@ -8,6 +8,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.util.Mth;
+import com.example.examplemod.entity.costom.PorkusEntity;
 
 public class PorkusModel<T extends PorkusEntity> extends EntityModel<T> {
 
@@ -76,6 +77,13 @@ public class PorkusModel<T extends PorkusEntity> extends EntityModel<T> {
 
         this.right_leg.xRot = Mth.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;
         this.left_leg.xRot = Mth.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
+
+        if (entity.swinging) {
+            this.right_arm.xRot = -(float)Math.PI;
+            this.left_arm.xRot = -(float)Math.PI;
+        }
+
+
     }
 
     @Override
