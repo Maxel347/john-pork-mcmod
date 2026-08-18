@@ -40,9 +40,8 @@ You can spawn the entities using the following commands:
 ```
 /summon examplemod:rhino
 /summon examplemod:porkus
-```
 
-Or find a **Porkus Spawn Egg** in the creative inventory.
+(if you are wondering why it says examplemod, it's because of the Tutorial i was following at the time)
 
 ---
 
