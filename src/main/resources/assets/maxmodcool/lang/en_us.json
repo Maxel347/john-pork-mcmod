@@ -1,8 +1,8 @@
 {
-  "item.examplemod.test_item": "Jhon Pork",
-  "item.examplemod.jpork_egg": "Jpork Spawn Egg",
+  "item.maxmodcool.test_item": "Jhon Pork",
+  "item.maxmodcool.jpork_egg": "Jpork Spawn Egg",
 
-  "block.examplemod.test_block": "compressed JhonPork block",
+  "block.maxmodcool.test_block": "compressed JhonPork block",
 
   "creativetab.johnpork_tab": "John Pork"
 }
