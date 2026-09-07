@@ -24,6 +24,7 @@ A Minecraft Forge mod for version **1.20.1** that adds new custom entities to th
 - Deals massive **200 attack damage**
 - Extra armor for protection
 - Can breed using **Cooked Beef**
+- unanimated 
 
 ### Porkus
 - A hostile humanoid monster
@@ -38,11 +39,10 @@ A Minecraft Forge mod for version **1.20.1** that adds new custom entities to th
 You can spawn the entities using the following commands:
 
 ```
-/summon examplemod:rhino
-/summon examplemod:porkus
+/summon maxmod:rhino
+/summon maxmaod:porkus
 
-(if you are wondering why it says examplemod, it's because of the Tutorial i was following at the time)
-
+or take the spawn egg
 ---
 
 ## Requirements
