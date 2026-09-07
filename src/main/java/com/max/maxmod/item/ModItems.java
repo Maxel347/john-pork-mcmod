@@ -1,6 +1,7 @@
 package com.max.maxmod.item;
 
 import com.max.maxmod.entity.ModEntities;
+import com.max.maxmod.item.custom.sansun;
 import com.max.maxmod.maxmodcool;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.common.ForgeSpawnEggItem;
@@ -20,6 +21,9 @@ public class ModItems {
             ITEMS.register("jpork_egg",
                     () -> new ForgeSpawnEggItem(ModEntities.PORKUS,  0x8B4513, 0xFF69B4,
                             new Item.Properties()));
+
+    public static final RegistryObject<Item> SANSUN = ITEMS.register("sansun",
+            () -> new sansun(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -17,13 +17,9 @@ public class ModClientEvents {
         event.registerEntityRenderer(ModEntities.PORKUS.get(), PorkusRenderer::new);
     }
 
-
     @SubscribeEvent
     public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(ModModelLayers.RHINO_LAYER, RhinoModel::createBodyLayer);
         event.registerLayerDefinition(ModModelLayers.PORKUS_LAYER, PorkusModel::createBodyLayer);
-
     }
-
-
 }

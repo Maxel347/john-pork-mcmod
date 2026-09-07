@@ -14,7 +14,7 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, maxmodcool.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> JOHNPORK_TAB = CREATIVE_MODE_TABS.register("johnpork",
-            ()-> CreativeModeTab.builder().icon(()-> new ItemStack(ModItems.TESTITEM.get()))
+            ()-> CreativeModeTab.builder().icon(()-> new ItemStack(ModItems.JPORK_EGG.get()))
                     .title(Component.translatable("creativetab.johnpork_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.TESTITEM.get());

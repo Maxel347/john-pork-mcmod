@@ -10,6 +10,7 @@ import com.max.maxmod.block.ModBlocks;
 import com.max.maxmod.entity.ModEntities;
 import com.max.maxmod.item.ModCreativeModTabs;
 import com.max.maxmod.item.ModItems;
+import com.max.maxmod.sound.ModSounds;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
@@ -38,6 +39,7 @@ public class maxmodcool
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModEntities.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
